@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "default": "kickmap-8f6c7"
+  },
+  "targets": {},
+  "etags": {
+    "kickmap-8f6c7": {
+      "extensionInstances": {}
+    }
+  }
+}

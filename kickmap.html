@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<link rel="stylesheet" href="kickmap.css">
+<body>
+<link rel="import" href="allpages.html">
+<big><b>KickMap</b></big>
+<div class="wrapper">
+<br>
+<div id="stripe">
+    <button class="mode">Home</button>
+    <button class="mode" onclick="goToClubsPage()">Clubs</button>
+<div class="dropdown">
+ <button class="dropbtn" onclick="goToEventsPage()">Events</button>
+  <div class="dropdown-content">
+    <a href="#">Register for Event </a>
+  </div>
+</div>
+    <button class="mode" onclick="goToOrganizationsPage()">Organizations</button>
+    <button class="mode">Calendar</button>
+    <button class="mode" onclick="goToProfilePage()">Log In</button>
+  <input type="text" placeholder="Search..">
+</div>  
+<script>
+	function goToClubsPage() {
+            window.location.href = "clubspage.html";
+        }
+        function goToEventsPage() {
+            window.location.href = "eventspage.html";
+        }
+	function goToOrganizationsPage() {
+            window.location.href = "organizationspage.html";
+        }
+	function goToProfilePage() {
+            window.location.href = "profilepage.html";
+        }
+    </script>
+</html>
